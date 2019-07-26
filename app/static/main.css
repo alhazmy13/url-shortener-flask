@@ -1,0 +1,220 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #344350 !important;
+}
+
+
+h1 {
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+
+.header-promo {
+    text-align: center;
+    margin: 20px;
+}
+
+.header-promo .title {
+    color: #fff;
+    font-weight: 300;
+}
+
+.header-promo .desc {
+    color: #fff;
+}
+
+form {
+    text-align: center;
+
+}
+
+
+.rounded input {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 16px;
+}
+
+.rounded button {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 16px;
+
+}
+
+.flash {
+    text-align: center;
+    color: red;
+}
+
+.social {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.btn-social {
+    position: relative;
+    padding-left: 44px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    border: 50px;
+}
+
+.btn-social > :first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 34px;
+    font-size: 1.6em;
+    text-align: center;
+
+}
+
+.btn-social-icon {
+    position: relative;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 34px;
+    width: 34px;
+    padding: 0;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+.btn-social-icon > :first-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 32px;
+    line-height: 34px;
+    font-size: 1.6em;
+    text-align: center;
+    border-right: 0px solid transparent;
+}
+
+.btn-social-icon > :first-child {
+    border: none;
+    text-align: center;
+    width: 100% !important
+}
+
+
+.btn-twitter {
+    color: #fff;
+    background-color: #55acee;
+}
+
+.btn-twitter:focus, .btn-twitter.focus {
+    color: #fff;
+    background-color: #2795e9;
+}
+
+.btn-twitter:hover {
+    color: #fff;
+    background-color: #2795e9;
+}
+
+.btn-twitter:active, .btn-twitter.active, .open > .dropdown-toggle.btn-twitter {
+    color: #fff;
+    background-color: #2795e9;
+}
+
+.btn-twitter:active:hover, .btn-twitter.active:hover, .open > .dropdown-toggle.btn-twitter:hover, .btn-twitter:active:focus, .btn-twitter.active:focus, .open > .dropdown-toggle.btn-twitter:focus, .btn-twitter:active.focus, .btn-twitter.active.focus, .open > .dropdown-toggle.btn-twitter.focus {
+    color: #fff;
+    background-color: #1583d7;
+}
+
+.btn-twitter:active, .btn-twitter.active, .open > .dropdown-toggle.btn-twitter {
+    background-image: none
+}
+
+.btn-twitter.disabled:hover, .btn-twitter[disabled]:hover, fieldset[disabled] .btn-twitter:hover, .btn-twitter.disabled:focus, .btn-twitter[disabled]:focus, fieldset[disabled] .btn-twitter:focus, .btn-twitter.disabled.focus, .btn-twitter[disabled].focus, fieldset[disabled] .btn-twitter.focus {
+    background-color: #55acee;
+}
+
+
+.btn-facebook {
+    color: #fff;
+    background-color: #3b5998;
+}
+
+.btn-facebook:focus, .btn-facebook.focus {
+    color: #fff;
+    background-color: #2d4373;
+}
+
+.btn-facebook:hover {
+    color: #fff;
+    background-color: #2d4373;
+}
+
+.btn-facebook:active, .btn-facebook.active, .open > .dropdown-toggle.btn-facebook {
+    color: #fff;
+    background-color: #2d4373;
+}
+
+.btn-facebook:active:hover, .btn-facebook.active:hover, .open > .dropdown-toggle.btn-facebook:hover, .btn-facebook:active:focus, .btn-facebook.active:focus, .open > .dropdown-toggle.btn-facebook:focus, .btn-facebook:active.focus, .btn-facebook.active.focus, .open > .dropdown-toggle.btn-facebook.focus {
+    color: #fff;
+    background-color: #23345a;
+}
+
+.btn-facebook:active, .btn-facebook.active, .open > .dropdown-toggle.btn-facebook {
+    background-image: none
+}
+
+.btn-facebook.disabled:hover, .btn-facebook[disabled]:hover, fieldset[disabled] .btn-facebook:hover, .btn-facebook.disabled:focus, .btn-facebook[disabled]:focus, fieldset[disabled] .btn-facebook:focus, .btn-facebook.disabled.focus, .btn-facebook[disabled].focus, fieldset[disabled] .btn-facebook.focus {
+    background-color: #3b5998;
+}
+
+
+.btn-linkedin {
+    color: #fff;
+    background-color: #007bb6;
+}
+
+.btn-linkedin:focus, .btn-linkedin.focus {
+    color: #fff;
+    background-color: #005983;
+}
+
+.btn-linkedin:hover {
+    color: #fff;
+    background-color: #005983;
+}
+
+.btn-linkedin:active, .btn-linkedin.active, .open > .dropdown-toggle.btn-linkedin {
+    color: #fff;
+    background-color: #005983;
+}
+
+.btn-linkedin:active:hover, .btn-linkedin.active:hover, .open > .dropdown-toggle.btn-linkedin:hover, .btn-linkedin:active:focus, .btn-linkedin.active:focus, .open > .dropdown-toggle.btn-linkedin:focus, .btn-linkedin:active.focus, .btn-linkedin.active.focus, .open > .dropdown-toggle.btn-linkedin.focus {
+    color: #fff;
+    background-color: #00405f;
+}
+
+.btn-linkedin:active, .btn-linkedin.active, .open > .dropdown-toggle.btn-linkedin {
+    background-image: none
+}
+
+.btn-linkedin.disabled:hover, .btn-linkedin[disabled]:hover, fieldset[disabled] .btn-linkedin:hover, .btn-linkedin.disabled:focus, .btn-linkedin[disabled]:focus, fieldset[disabled] .btn-linkedin:focus, .btn-linkedin.disabled.focus, .btn-linkedin[disabled].focus, fieldset[disabled] .btn-linkedin.focus {
+    background-color: #007bb6;
+}
