@@ -1,9 +1,11 @@
 import random
 import string
 import logging
-from flask import Blueprint, request, current_app, render_template, flash, redirect, \
-    url_for
+
 from app.extenstions import redis
+from flask import (Blueprint, request, current_app,
+                   render_template, flash, redirect,
+                   url_for)
 
 api = Blueprint('short_url', __name__)
 log = logging.getLogger(__name__)
